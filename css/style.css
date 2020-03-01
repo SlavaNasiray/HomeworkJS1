@@ -1,0 +1,24 @@
+.container {
+    margin: 100px;
+    background-color: teal;
+}
+
+.container2 {
+    margin: 300px;
+    background-color: yellow;
+}
+
+.flexbox div {
+    width: 200px;
+    height: 200px;
+    background-color: tomato;
+}
+
+.flexbox {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 auto;
+    min-height: 400px;
+    max-width: 1400px;
+}
